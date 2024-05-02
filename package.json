@@ -1,5 +1,6 @@
 {
-  "name": "first-app-lesson",
+  "name": "webcup-app",
+  "homepage": "https://techmavericks.madagascar.webcup.hodi.host/",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +8,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:first-app-lesson": "node dist/first-app-lesson/server/server.mjs"
+    "serve:ssr:webcup-app": "node dist/webcup-app/server/server.mjs"
   },
   "private": true,
   "dependencies": {
