@@ -1,7 +1,11 @@
-<main>
-  <app-nav-header></app-nav-header>
-  <section class="content">
-    <router-outlet></router-outlet>
-  </section>
-  <app-footer></app-footer>
+<main *ngIf="isLoginRoute(); else main">
+  <router-outlet></router-outlet>
 </main>
+<ng-template #main>
+  <main>
+    <app-nav-header></app-nav-header>
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+</ng-template>
