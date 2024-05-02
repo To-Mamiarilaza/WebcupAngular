@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
+import { FilterComponent } from './pages/filter/filter.component';
 
 export const routes: Routes = [
   {
@@ -19,4 +20,9 @@ export const routes: Routes = [
     component: ProductDetailsComponent,
     title: 'Détail produit',
   },
+  {
+    path: 'filter',
+    component: FilterComponent,
+    title: 'Tous les produits'
+  }
 ];
