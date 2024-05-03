@@ -1,0 +1,26 @@
+.left-top-links {
+    .text-body {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.btn-group {
+
+    button {
+        border-radius: 0;
+    }
+
+    .dropdown-menu {
+        background-color: white !important;
+        border-radius: 0;
+    }
+}
+
+.input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
